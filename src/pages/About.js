@@ -1,0 +1,12 @@
+import react from 'react';
+import './styles.css'; 
+
+const About = () => {
+    return (
+        <div>
+            <h1> Hello! I'm Shannon. </h1>
+        </div>
+    )
+}
+
+export default About; 
