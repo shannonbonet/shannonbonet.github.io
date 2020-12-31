@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     root: {
-        margin: 20,
+        margin: 30,
         borderRadius: 18, 
         backgroundColor: 'rgba(260, 200, 169, 0.654)',
         boxShadow: '2px 3px 3px rgba(113, 128, 246, 0.675)'
@@ -22,7 +22,8 @@ const ProjectCard = (props) => {
     return (
         <Card className={classes.root}>
              <CardHeader
-                title={props.title}/>
+                title={props.title}
+                subheader={props.subhead}/>
             <CardContent>
                 <p>
                     {props.description}
